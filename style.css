@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&family=Engagement&family=Inclusive+Sans&family=Kavivanar&family=Lexend+Tera:wght@200&family=MuseoModerno:ital@1&family=Nunito:wght@800&family=Onest:wght@300&family=Poppins:wght@200&family=Red+Hat+Mono:ital,wght@1,300&family=Roboto&family=Roboto+Mono:wght@700&family=Rubik+Glitch&family=Rubik+Vinyl&family=Shalimar&family=Ubuntu:wght@700&family=Wire+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #ececec;
+}
+
+.text-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type-text {
+    font-size: 50px;
+    color: #4343ff;
+}
+
+input {
+    width: 500px;
+    height: 50px;
+    padding: 45px;
+    font-size: 50px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 100px;
+    background-color: #fff;
+    margin-top: 15px;
+}
+
+.type-text {
+    transition: 400ms;
+}
+
+.mode-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 200px;
+    font-size: 30px;
+    cursor: pointer;
+}
